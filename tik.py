@@ -139,7 +139,7 @@ def CheckBoard(y):
         return b[6]
     if((b[0]==y)and(b[0]==b[3]) and(b[3]==b[6])):
         return b[0]
-    if((b[1]==y)and(b[1]==b[4]) and(b[4]==b[8])):
+    if((b[1]==y)and(b[1]==b[4]) and(b[4]==b[7])):
         return b[1]
     if((b[2]==y)and(b[2]==b[5]) and(b[5]==b[8])):
         return b[2]
